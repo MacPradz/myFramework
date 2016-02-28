@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by wp on 2016-02-27.
+ * Created by MacPradz on 2016-02-27.
  */
 public class jsonGenerator {
     public static final List<String> CONTINENT_LIST = new ArrayList<String>() {{

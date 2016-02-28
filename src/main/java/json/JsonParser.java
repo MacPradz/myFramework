@@ -15,7 +15,7 @@ import java.util.Set;
 
 
 /**
- * Created by wp on 2016-02-27.
+ * Created by MacPradz on 2016-02-27.
  */
 public class JsonParser {
     private HashMap<String, String> countryDict = new HashMap<String, String>() {

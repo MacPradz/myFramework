@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PowerStationLoads recordedTime="23/06/2015 13:30:00" xmlns="">
+    <PowerStation stationID="1" substation="BPS_SO" stationName="Ballylumford" load="236" />
+    <PowerStation stationID="3" substation="CPS_SO" stationName="Coolkeeragh" load="335.4" />
+    <PowerStation stationID="2" substation="KPS_SO" stationName="Kilroot" load="179.5" />
+</PowerStationLoads>

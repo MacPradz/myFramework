@@ -1,19 +1,19 @@
-package json;
+package xml;
 
 import org.junit.Test;
 import utils.StreamUtil;
 
-import java.io.*;
+import java.io.InputStream;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 /**
- * Created by wp on 2016-02-27.
+ * Created by wp on 2016-02-28.
  */
-public class JsonParserTest {
+public class XmlParserTest {
     StreamUtil su = new StreamUtil();
-    InputStream is = su.fileToInputStream("jsonTestFile.dat");
-    JsonParser parser = new JsonParser();
+    InputStream is = su.fileToInputStream("xmlTestFile.xml");
+    XmlParser parser = new XmlParser();
     String result = parser.parse(is);
     String expected = "x";
 
