@@ -40,7 +40,6 @@ public class XlsParser {
         } catch (Exception e) {
             throw new RuntimeException(e.getMessage());
         }
-
         return "x";
     }
 
